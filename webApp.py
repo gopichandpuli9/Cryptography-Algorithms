@@ -1,6 +1,5 @@
 import hashlib
-from Cryptodome.Cipher import AES
-from Cryptodome.Cipher import DES
+import Cryptodome.Cipher
 import base64
 from urllib import parse
 import streamlit as st
