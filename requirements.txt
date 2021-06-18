@@ -1,4 +1,4 @@
 pycryptodome
-urllib
+urllib3
 pybase64
 hashlib
