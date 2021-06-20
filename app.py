@@ -96,6 +96,11 @@ st.write("""
 ## Explore different cryptography and hash algorithms
 """)
 
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
+
 algo = st.selectbox("Select the Algorithm", ("AES", "DES", "SHA-1", "SHA-256","SHA-512", "MD-5"))
 if algo == "MD-5":
     user_input = st.text_input("Enter the text that needs to be hashed: ")
